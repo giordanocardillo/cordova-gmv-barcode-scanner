@@ -7,7 +7,7 @@
     </js-module>
         
     <engines>
-        <engine name="cordova" version=">=7.1.0"/>
+        <engine name="cordova" version=">=6.5.0"/>
         <engine name="cordova-android" version=">=6.3.0"/>
         <engine name="cordova-ios" version=">=4.5.0"/>
     </engines>
@@ -64,7 +64,6 @@
         </config-file>
 
         <config-file target="res/values/strings.xml" parent="/*">
-            <string name="ok">OK</string>
             <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
             <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
             <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
@@ -114,7 +113,7 @@
 
 
         <framework src="com.android.support:support-v4:27.1.0" />
-        <framework src="com.google.android.gms:play-services-vision:11.0.1" />
+        <framework src="com.google.android.gms:play-services-vision:16.2.0" />
         <framework src="com.android.support:design:27.1.0" />
             
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference"/>
